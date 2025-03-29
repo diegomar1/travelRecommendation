@@ -178,3 +178,90 @@ body {
        
 }
 
+/*About Us*/
+
+.ourTeam-cont{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.ourTeam-cont h3{
+    color: white;
+}
+
+.team-member-cont{
+    display: flex;
+
+}
+
+.team-member{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    background-color: #00000050;
+    back;
+    border-radius: 20px;
+    color: white;
+    padding: 0px 0px 0px 0px;  
+    margin: 10px 20px 10px 20px; 
+    width: 300px;
+
+}
+
+.team-member img{
+    padding: 0px 0px 0px 0px;  
+    margin: 10px 20px 10px 20px; 
+
+}
+
+.team-member h5{
+    padding: 0px 0px 0px 0px;  
+    margin: 10px 20px 10px 20px; 
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+.team-member p{
+    padding: 0px 0px 0px 0px;  
+    margin: 10px 20px 10px 20px; 
+
+}
+
+.team-member label{
+    padding: 0px 0px 0px 0px;  
+    margin: 10px 20px 10px 20px; 
+
+}
+
+
+.about-cont{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: last baseline;
+    padding: 0px 0px 0px 0px;   
+    margin: 100px 0px 0px 70px;
+
+}
+
+.about-cont h2{
+    padding: 0px 0px 0px 0px;   
+    margin: 0px 0px 0px 0px; 
+    color: white;
+    font-weight: bold;
+    font-size: 60px;
+      
+
+}
+
+.about-cont p{
+    padding: 0px 800px 0px 0px;  
+    margin: 50px 0px 0px 0px; 
+   
+    color: white;
+    font-weight: normal;
+    font-size: 15px;
+
+}
