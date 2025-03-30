@@ -290,103 +290,94 @@ body {
 
 /*Contact us*/
 
-.contact-main-cont{
+.contact-main-cont {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;    
-    align-items: center;        
-    padding: 0px 0px 0px 0px;  
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0px 0px 0px 0px;
     margin: 0 auto;
     width: 100%;
-
-
+    box-sizing: border-box; 
 }
 
-.contact-cont{
+.contact-cont {
     display: flex;
     flex-direction: column;
-    
-
+    box-sizing: border-box; 
+    margin: 0 auto;
 }
 
-.contact-cont h2{
+.contact-cont h2 {
     color: white;
     font-size: 50px;
     font-weight: bold;
-
 }
 
-.contact-cont p{
+.contact-cont p {
     color: white;
     font-size: 15px;
-
 }
 
-
-.contact-form-cont{
-    display: flex;
+.contact-form-cont {
+    width: 100%;
+    align-items: center;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
     background-color: #00000050;
-    border-radius: 10px;
-   
-    padding: 0px 0px 0px 0px;  
-    margin: 0px 0px 0px 0px; 
-    width: 800px;
-    height: 500px;
-
+    border-radius: 10px; 
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3); /* Creates an outer shadow for a larger effect */
+    box-sizing: border-box; 
 }
 
-.contact-form{
+.contact-form {
     display: flex;
     flex-direction: column;
     color: white;
-    align-items:flex-start;
-    margin: 15px 15px 15px 15px;
+    align-items: flex-start;
+    margin: 15px;
     font-size: 20px;
     width: 100%;
-    padding: 5px 20px 5px 10px;
+    box-sizing: border-box; 
+   
 }
 
-
 .contact-form input,
-.contact-form textarea{
+.contact-form textarea {
     color: white;
     background-color: transparent;
     width: 100%;
     height: 45px;
     border: 1px solid rgb(170, 170, 170);
     border-radius: 4px;
-    margin: 10px;
+    margin: 0 0 10px 0; /* Adjusted margin */
     min-height: 45px;
     font-size: 15px;
-    padding: 5px;
-    
-    
+    box-sizing: border-box; /* Ensures padding/border don't affect width */
 }
 
 .contact-form textarea {
-    height: 100px; /* More space for messages */
-    resize: vertical; /* Allows user to resize */
-    min-height: 100px;
+    height: 100px;
+    resize: vertical;
+    max-width: 100%; /* Ensures it doesn't exceed the container width */
 }
 
 .contact-form input:focus,
 .contact-form textarea:focus {
     outline: none;
-    border-color: #fff; /* Change border color on focus */
+    border-color: #fff;
 }
 
-
-.contact-form button{
+.contact-form button {
     width: 100%;
     color: white;
     background-color: #017375;
-    padding: 10px 0px 10px 0px;
+    padding: 10px 0px;
     border: none;
     border-radius: 4px;
     font-size: 15px;
-
 }
-
 
 .contact{
     display: flex;
