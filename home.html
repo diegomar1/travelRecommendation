@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TravelBloom</title>
     <link rel="stylesheet" href="travel_recommendation.css">
+    <script src="travel_recommendation.js"></script>
+    
+
     
 </head>
  <body>
@@ -27,8 +30,8 @@
         </div>
 
         <div class="search-container">
-            <input type="text" id="search" placeholder="Search recommendations...">
-            <button onclick="searchFunction()">Search</button>
+            <input type="text" id="searchInput" placeholder="Search recommendations...">
+            <button onclick="searchLocation()">Search</button>
             <button onclick="resetFunction()">Reset</button>
         </div>
     </div>
@@ -70,34 +73,7 @@
 
     </div>
 
-    <div class="display-search-cont">
-
-        <div class="top-bar"></div>
-
-        <img src="" alt="">
-
-        <div class="info-cont">
-
-            <h3></h3>
-            <p></p>
-            <button></button>
-
-
-        </div>
-
-
-
-
-
-        </div>
-
-
-
-
-
-
-
-    </div>
+    <div class="result" id="result"></div>
 
     
 
@@ -110,7 +86,7 @@
 
 
 
-
+  
 
  </body>
 
